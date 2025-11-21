@@ -29,6 +29,37 @@ Throughout the simulation, I completed the following tasks, which build upon eac
 5.  **REST API Controller:**
     -   Exposed a REST API from the Spring application to make its data available to other services.
 
+## Code
+
+The source code for this project can be found in the `JPMorgan_VirtualJobSimulation/forage-midas` directory.
+
+## Project Structure
+
+The project follows a standard Spring Boot structure:
+
+-   `src/main/java`: Contains the main application source code.
+-   `src/main/resources`: Contains configuration files, such as `application.yml`.
+-   `pom.xml`: The Project Object Model (POM) file that defines the project's dependencies and build configuration.
+
+## How to Run
+
+To run the application locally, you will need to have Java and Maven installed.
+
+1.  Navigate to the project directory:
+    ```bash
+    cd JPMorgan_VirtualJobSimulation/forage-midas
+    ```
+
+2.  Build the project using the Maven wrapper:
+    ```bash
+    ./mvnw clean install
+    ```
+
+3.  Run the application:
+    ```bash
+    ./mvnw spring-boot:run
+    ```
+
 ## Certificate
 
 The official certificate of completion for the JPMC Virtual Job Simulation is included in this repository. You can find it [here](./JPMC%20Virtual%20Job%20Simulation%20Certificate.pdf).
